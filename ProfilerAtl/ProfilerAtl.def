@@ -1,0 +1,9 @@
+; ProfilerAtl.def : Declares the module parameters.
+
+LIBRARY      "ProfilerAtl.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
